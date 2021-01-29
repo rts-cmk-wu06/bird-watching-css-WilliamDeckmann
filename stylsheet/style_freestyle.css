@@ -1,0 +1,58 @@
+/* Website structure and sizing */
+.surrounding {margin: auto; padding: 0;}
+body {width: 70%; min-width: 800px; margin: auto;}
+header {margin-bottom: 10px; display: flex; flex-flow: row wrap;}
+main {display: flex;}
+aside {flex: 1; padding: 1%;}
+aside a {display: block; float: left; width: 35%; margin: 7% 7% 0% 7%;}
+aside img {max-width: 100%; border: solid 2px #49295c; border-radius: 10px; box-shadow: 1px 1px 5px #49295c;}
+aside img:hover {max-width: 100%; border: solid 2px #f76767; border-radius: 10px; box-shadow: 1px 1px 5px #49295c;}
+footer {margin-top: 10px; margin-bottom: 5%;}
+.infotext_style {flex: 4;}
+.section_margins {margin-top: 5%}
+.aside_margins {margin-left: 2%;}
+
+/* Test styling */
+.test_margins {margin: 5%;}
+.test_padding {padding: 10%; text-align: center;}
+#test_size1 {box-sizing: content-box; width: 300px; height: 120px; margin: 5% auto 0 auto; padding: 100px; background-image: linear-gradient(#49295c 0%, #f76767 100%);}
+#test_size2 {box-sizing: border-box; width: 500px; height: 360px; margin: 5% auto 0 auto; padding: 100px; background-image: url("/html_birdwatchingwebsite/Images/favorite-1.jpg"); background-repeat: no-repeat; background-size: cover; background-position: top;}
+#testcontainer_style {background-color: rgb(161, 232, 161, 0); padding: 1.5% 5% 5% 5%; border: 2px dashed; border-radius: 40px; box-shadow: none;}
+
+/* !Impotant */
+.important {text-align: center; font-style: italic; color: #f76767 !important;}
+
+/* Website styling and color */
+html {font-size: 10px; background-image: linear-gradient(#ffffce 0%, #ffbdbd 100%);}
+nav {height: 60px; flex: 100%; display: flex;}
+#head_img {display: block; height: 60px; padding-top: 20.15px; margin-left: 20px;}
+.nav_ul {padding: 0; list-style-type: none; flex: 2; display: flex;}
+.nav_li {display: inline; text-align: center; flex: 1;}
+.container_style {background-color: rgb(161, 232, 161, .4); padding: 2%; border: solid 2px #49295c; border-radius: 10px; box-shadow: 1px 1px 5px #49295c;}
+.opacity_reset {opacity: 100%; background-color: #a1e8a1}
+
+/* This was supposed to add a background color. It didn´t work right, but i still left it in as an example */ 
+/* body > * {background-color: #ffffce; padding: 1%;} */
+
+/* Text styling and font families */
+.head_style {font-family: 'Bebas Neue', cursive; color: #49295c;}
+.h1_flex {flex: 5; text-transform: uppercase;}
+.head1 {font-size: 4rem; text-align: center; text-shadow: 3px 3px 5px #97b697;}
+.head2 {font-size: 3rem; text-align: center; text-shadow: 2px 2px 5px #97b697;}
+.head3 {font-size: 2.5rem; text-align: center; text-shadow: 1.5px 1.5px 5px #97b697;}
+.generaltext_style {font-family: 'Roboto Mono', monospace; color: #49295c;}
+.generallist_style {font-size: 1.6rem; line-height: 1.5;}
+.text_surrounding {padding: 0px 50px 0px 50px;}
+.navtext_style{display: inline-block; font-size: 2rem; height: 3rem; line-height: 1.7; text-transform: uppercase; text-decoration: none; color: #49295c;}
+.navtext_style:hover{display: inline-block; font-size: 2rem; height: 3rem; line-height: 1.7; text-transform: uppercase; text-decoration: none; color: #f76767;}
+.link_style {font-family: 'Roboto Mono', monospace; color: #49295c;}
+.link_style:hover {font-family: 'Roboto Mono', monospace; color: #f76767;}
+.textdecoration_remove {text-decoration: none;}
+
+/* Formel */
+fieldset ul {list-style-type: none; width: 100%; margin-left: 20%; margin-bottom: 5%;}
+fieldset input {background-color: #ffffce; color: #49295c; border-style: none; width: 50%; padding: 5px; margin-bottom: 5px;}
+fieldset textarea {background-color: #ffffce; color: #49295c; border-style: none; width: 50%; height: 150px; padding: 5px; margin-bottom: 5px;}
+fieldset li button {background-color: #ffffce; border-style: none; width: 50%; padding: 5px;}
+fieldset li button:hover {background-color:  #f76767; border-style: none; width: 50%; padding: 5px;}
+fieldset li button:checked {background-color:  #f76767; border-style: none; width: 50%; padding: 5px;}

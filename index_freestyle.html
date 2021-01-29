@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="surrounding">
+  <head>
+    <meta charset="utf-8">
+    <title>Birdwatching</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+    <link rel="stylesheet" href="stylsheet/style_freestyle.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <header class="container_style">
+
+    <!-- Title and logo -->
+    <h1 class="head_style head1" id="h1_flex">Birdwatching</h1>
+    <img id="head_img" src="./Images/dove.png" alt="a simple dove logo">
+    
+    <!-- Menu container -->
+    <nav class="container_style">
+      <ul class="generaltext_style generallist_style nav_ul">
+        <li class="nav_li"><span class="navtext_style">Home</span></li>
+        <li class="nav_li"><a class="navtext_style" href="#">Get started</a></li>
+        <li class="nav_li"><a class="navtext_style" href="#">Photos</a></li>
+        <li class="nav_li"><a class="navtext_style" href="#">Gear</a></li>
+        <li class="nav_li"><a class="navtext_style" href="#">Forum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body class="surrounding section_margins">
+    <main class="container_style section_margins">
+
+      <!-- Welcom container -->
+      <article class="container_style infotext_style">
+        <h2 class="head_style head2">Welcome</h2>
+        <br>
+        <p class="generaltext_style text_surrounding">Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+
+        <p class="generaltext_style text_surrounding">So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+      </article>
+
+      <!-- Image container -->
+      <aside class="container_style aside_margins">
+        <section class="container_style infotext_style">
+          <h2 class="head_style head2">Favourite photos</h2>
+          <a href="./Images/favorite-1.jpg"><img src="./Images/favorite-1_th.jpg" alt="Small black bird, black claws, long black slender beak, links to larger version of the image"></a>
+          <a href="./Images/favorite-2.jpg"><img src="./Images/favorite-2_th.jpg" alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress, links to larger version of the image"></a>
+          <a href="./Images/favorite-3.jpg"><img src="./Images/favorite-3_th.jpg" alt="Top half of a large bird with white plumage, very long curved narrow light colored break, links to larger version of the image"></a>
+          <a href="./Images/favorite-4.jpg"><img src="./Images/favorite-4_th.jpg" alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak, links to larger version of the image"></a>
+        </section>
+      </aside>
+    </main>
+
+    <!-- Test containers -->
+    <div class="container_style section_margins" id="testcontainer_style">
+      <h1 class="head_style head1">Test containers:</h1> 
+      <main class="container_style section_margins">
+
+        <!-- Right aside -->
+        <aside class="container_style">
+          <article class="container_style test_margins">
+            <h3 class=" head_style head3 test_padding">Flexbox: RIGHT</h3>
+          </article>
+          </aside>
+
+        <!-- Left aside -->
+        <aside class="container_style aside_margins">
+          <article class="container_style test_margins">
+            <h3 class="head_style head3 test_padding">Flexbox: LEFT</h3>
+          </article>
+        </aside>
+      </main>
+
+      <!-- Test container 1 -->
+      <main class="container_style" id="test_size1">
+        <article article class="container_style opacity_reset">
+          <p class="generaltext_style">
+            TEST CONTAINER 1 - Gradient backgrounds
+            <br><br>
+            {box-sizing: content-box; width: 300px; height: 120px; margin: 5% auto 0 auto; padding: 100px}
+            <br><br>
+            {background-image: linear-gradient(#dfc1f0 0%, #ecbcbc 100%);}
+          </p>
+        </article>
+      </main>
+
+      <!-- Test container 2 -->
+      <main class="container_style" id="test_size2">
+        <article class="container_style opacity_reset">
+          <p class="generaltext_style">
+            TEST CONTAINER 2 - Image backgrounds
+            <br><br>
+            {box-sizing: border-box; width: 500px; height: 360px; margin: 5% auto 0 auto; padding: 100px}
+            <br><br>
+            {background-image: url("/html_birdwatchingwebsite/Images/favorite-1.jpg"); background-repeat: no-repeat; background-size: cover; background-position: top;}
+          </p>
+        </article>
+      </main>
+
+      <!-- !Important -->
+      <section class="container_style section_margins">
+        <h2 class="head_style head2 important">"Something very important"</h2>
+      </section>
+
+      <!-- Test Formel -->
+      <article class="container_style section_margins">
+        <fieldset class="container_style">
+          <ul>
+            <li>
+              <header>
+                <h3 class="head_style head3">Test formel</h3>
+              </header>
+            </li>
+            <li>
+              <!-- <label for="name">Name:</label> -->
+              <input type="text" class="generaltext_style" id="name" placeholder="Name:">
+            </li>
+            <li>
+              <!-- <label for="email">E-mail:</label> -->
+              <input type="email" class="generaltext_style" id="email" placeholder="E-mail:">
+            </li>
+            <li>
+              <!-- <label for="messege">Messege:</label> -->
+              <textarea class="generaltext_style" id="messege" placeholder="..."></textarea>
+            </li>
+            <li><button><strong><a href="#" class="generaltext_style textdecoration_remove">Send</a></strong></button></li>
+          </ul>
+        </fieldset>
+    </article>
+    </div>
+
+    <footer class="container_style section_margins">
+
+      <!-- Extra info & links -->
+      <p class="generaltext_style">This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
+      <p class="generaltext_style"><a class="link_style" href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a> by Lorc.</p>
+    </footer>
+  </body>
+</html>
